@@ -17,6 +17,7 @@
     </div>
     <center>
 <div class="jumbotron" style="background-color: pink">
+  <span style="margin-left: 700px;"><i><a href="CitizenCensus.php" style="color:red;font-size: 30px;">ADD CITIZEN</a></i></span>
             <table class="table table-dark">
               <thead>
                 <tr>
