@@ -17,9 +17,8 @@ if(isset($_GET['edit'])){
   $image=$citizen['picture'];
   $income=$citizen['income'];
 }
-global $citizenId;
 if (isset($_POST['update'])) {
-  updateCitizen($citizenId);
+  updateCitizen();
 }
 ?>
 <!DOCTYPE html>
@@ -94,6 +93,7 @@ if (isset($_POST['update'])) {
     <input type="file" name="picture" class="form-control field" />
   </div>
 </div>
+<input type="hidden" name="id" value="<?php echo $citizenId ?>">
 <div class="col-md-6">
   <button type="submit" name="update" class="btn btn-primary btn-block"><b>UPDATE</b></button>
   </div>
