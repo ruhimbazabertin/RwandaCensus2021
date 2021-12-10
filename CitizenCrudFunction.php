@@ -75,7 +75,7 @@ echo "</tr>";
   }
   function updateCitizen(){
 
-    global $connection,$citizenId;
+    global $connection;
       //collect all data from the form here
       $firstname = $_POST['firstname'];
       $lastname = $_POST['lastname'];
