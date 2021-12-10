@@ -18,7 +18,7 @@
     </div>
     <center>
 <div class="jumbotron" style="background-color: pink">
-  <span style="margin-left: 700px;"><i><a href="CitizenCensus.php" style="color:red;font-size: 30px;"><i class="fa fa-user"></i>ADD CITIZEN<i class="fa fa-university"></a></span>
+  <span style="margin-left: 700px;"><i><a href="CitizenCensus.php" style="color:red;font-size: 30px;"><i class="fa fa-user"></i>ADD CITIZEN<i class="fa fa-university"></i></a></span>
             <table class="table table-dark">
               <thead>
                 <tr>
